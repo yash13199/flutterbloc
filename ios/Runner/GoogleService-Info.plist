@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>791335968042-023i6anen61cjqjm85vl2jjmhdddb062.apps.googleusercontent.com</string>
+	<string>791335968042-7nu6ui2sblrjjchkrit2h0037hm5reea.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.791335968042-023i6anen61cjqjm85vl2jjmhdddb062</string>
+	<string>com.googleusercontent.apps.791335968042-7nu6ui2sblrjjchkrit2h0037hm5reea</string>
 	<key>API_KEY</key>
 	<string>AIzaSyCn8SyZzs1VO3fvoCfrNxn_yAhdNE--fSI</string>
 	<key>GCM_SENDER_ID</key>
@@ -13,7 +13,7 @@
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>com.example.flutterbloc</string>
+	<string>com.example.flutterbloc2</string>
 	<key>PROJECT_ID</key>
 	<string>bloc-8cb0f</string>
 	<key>STORAGE_BUCKET</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:791335968042:ios:d2ca9e1b38e01a03565253</string>
+	<string>1:791335968042:ios:6a8ac563b5b43a7b565253</string>
 </dict>
 </plist>

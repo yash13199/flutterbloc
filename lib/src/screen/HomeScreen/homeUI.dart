@@ -29,6 +29,8 @@ class _HomePageUIState extends State<HomePageUI> {
         appBar: AppBar(title: Text("Welcome ${username}"),),
         body: bloc.pages[state.currentIndex],
         bottomNavigationBar: BottomNavigationBar(
+          backgroundColor: Colors.red,
+            type: BottomNavigationBarType.fixed, 
           currentIndex: state.currentIndex,
           onTap: (index ) {
               bloc.add(SelectIndexEvent(index));
@@ -37,6 +39,8 @@ class _HomePageUIState extends State<HomePageUI> {
           items: [
             BottomNavigationBarItem(icon: Icon(Icons.dashboard), label: 'Dashboard'),
                 BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Account'),
+                BottomNavigationBarItem(icon: Icon(Icons.feed), label: 'Feeds'),
+                BottomNavigationBarItem(icon: Icon(Icons.post_add), label: 'upload post'),
                 BottomNavigationBarItem(icon: Icon(Icons.map), label: 'Map'),
                 
           ]
